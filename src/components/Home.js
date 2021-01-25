@@ -31,17 +31,44 @@ const Home = () => {
         <div className="card main-div">
           <div className="card-image home-project">
           <Link to='/projects'>
-            <img className="project-image" src="https://i.imgur.com/fSb83zv.png"/>
+            <img className="project-image" src="https://i.imgur.com/L9RU5xo.png"/>
             <div class="home-title card-title">View My Projects</div>
           </Link>
           </div>
         </div>
       </div>
-      <div class="col s6 center-align"><span class="flow-text">Project 2</span></div>
+      <div class="col s6 center-align">
+      <div className="card main-div">
+          <div className="card-image home-project">
+          <Link to='/projects'>
+            <img className="project-image" src="https://i.imgur.com/L9RU5xo.png"/>
+            <div class="home-title card-title">View My Projects</div>
+          </Link>
+          </div>
+        </div>
+      </div>
     </div>
     <div className= "row">
-      <div class="col s6 center-align"><span class="flow-text">Project 3</span></div>
-      <div class="col s6 center-align"><span class="flow-text">Project 4</span></div>
+      <div class="col s6 center-align">
+      <div className="card main-div">
+          <div className="card-image home-project">
+          <Link to='/projects'>
+            <img className="project-image" src="https://i.imgur.com/pUP34Nb.png"/>
+            <div class="home-title card-title">View My Projects</div>
+          </Link>
+          </div>
+        </div>
+      </div>
+      <div class="col s6 center-align">
+      <div className="card main-div">
+          <div className="card-image home-project">
+          <Link to='/projects'>
+            <img className="project-image" src="https://i.imgur.com/DYIl8UL.png"/>
+            <div class="home-title card-title">View My Projects</div>
+          </Link>
+          </div>
+        </div>
+      </div>
     </div>
           
   </div>
