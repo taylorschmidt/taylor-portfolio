@@ -1,0 +1,35 @@
+/* .App {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+​
+/* main {
+  flex: 1 0 auto;
+}
+​ */
+
+.nav-wrapper {
+  /* background: #4D6B53; */
+  background: #475841
+}
+
+.page-title {
+  font-family: 'Beth Ellen', cursive;
+}
+
+.buttons {
+  background: #475841
+}
+
+.buttons:hover {
+  background: #6b7966
+}
+
+.page-footer {
+  background: #475841
+}
