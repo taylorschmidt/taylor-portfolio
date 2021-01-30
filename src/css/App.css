@@ -1,20 +1,14 @@
-/* .App {
-  text-align: center;
-}
-
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 ​
-/* main {
+main {
   flex: 1 0 auto;
 }
-​ */
 
 .nav-wrapper {
-  /* background: #4D6B53; */
   background: #475841
 }
 
@@ -38,11 +32,10 @@ body {
   text-align: center
 }
 
-/* label focus color */
  .input-field input:focus + label {
    color: #475841 !important;
  }
- /* label underline focus color */
+ 
  .row .input-field input:focus {
    border-bottom: 1px solid #475841 !important;
    box-shadow: 0 1px 0 0 #475841 !important
@@ -92,4 +85,8 @@ body {
 .about-p {
   margin: 20px;
   margin-right: 60px;
+}
+
+.contact-form {
+  margin-top: 10vh;
 }
