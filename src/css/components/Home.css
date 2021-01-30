@@ -26,3 +26,10 @@
     color: black;
 }
 
+.home-buttons {
+    background: #475841
+}
+  
+.home-buttons:hover {
+    background: #6b7966
+  }

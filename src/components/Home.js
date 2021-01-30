@@ -12,25 +12,26 @@ const Home = () => {
   //setting up state
 
   return (
+    <>
     <div className="container">
       <div className="row">
-        <div className="col l6 m6 s12">
-          {/* <div className="photo-background grey darken-3" height="850" width="300"> */}
+        <div className="col s12 m5 l5">
           <img
             className="responsive-img"
             src="https://i.imgur.com/z5IlRTa.png"
           />
-          {/* </div> */}
         </div>
-        <div class="col l6 m6 s12">
-          <h1 className="page-title">hi, there.</h1>
-          <p>I'm Taylor Schmidt, a full-stack software engineer.</p>
+        <div className="col s12 m7 l7 center-align">
+          <br></br>
+          <h1 className="page-title ">hi, there.</h1>
+          <h5>I'm Taylor Schmidt, a full-stack software engineer.</h5>
+          <br></br>
           <Link to="/about">
-            <a class="buttons btn">Get to Know Me</a>
+            <a className="home-buttons btn">Get to Know Me</a>
           </Link>
         </div>
       </div>
-      <div class="row center-align">
+      <div className="row center-align">
         <img className="responsive-img" src="https://i.imgur.com/Td5CWaG.png" />
       </div>
       {/* <div class="col s6 center-align">
@@ -44,7 +45,7 @@ const Home = () => {
         </div>
       </div> */}
       <div className="row center-align">
-        <div class="col l4 m4 s12 ">
+        <div className="col s12 m4 l4">
           <div className="card main-div">
             <div className="card-image home-project">
               <Link to="/projects">
@@ -58,7 +59,7 @@ const Home = () => {
           </div>
         </div>
       {/* <div className= "row"> */}
-      <div class="col l4 m4 s12 center-align">
+      <div className="col l4 m4 s12 center-align">
         <div className="card main-div">
           <div className="card-image home-project">
             <Link to="/projects">
@@ -71,7 +72,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class="col l4 m4 s12 center-align">
+      <div className="col l4 m4 s12 center-align">
         <div className="card main-div">
           <div className="card-image home-project">
             <Link to="/projects">
@@ -79,13 +80,14 @@ const Home = () => {
                 className="project-image"
                 src="https://i.imgur.com/DYIl8UL.png"
               />
-              <div class="home-title card-title">View My Projects</div>
+              <div className="home-title card-title">View My Projects</div>
             </Link>
           </div>
         </div>
       </div>
     </div>
     </div>
+    </>
   );
 };
 

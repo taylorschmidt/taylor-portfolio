@@ -9,7 +9,7 @@ main {
 }
 
 .nav-wrapper {
-  background: #475841
+  background: #475841 !important
 }
 
 .page-title {
@@ -17,15 +17,15 @@ main {
 }
 
 .buttons {
-  background: #475841
+  background: #475841 !important
 }
 
 .buttons:hover {
-  background: #6b7966
+  background: #6b7966 !important
 }
 
 .page-footer {
-  background: #475841
+  background: #475841 !important
 }
 
 .footer-container {
@@ -87,6 +87,9 @@ main {
   margin-right: 60px;
 }
 
+.about-p2 {
+  margin-top: 10px;
+}
 .contact-form {
   margin-top: 10vh;
 }

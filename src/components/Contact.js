@@ -24,9 +24,10 @@ export default function Contact() {
 
   return (
     <>
-      <div className="container center-align">
-        <div className="row valign-wrapper center-align">
-          <div className="col s12 m6 l6 chat-box valign-wrapper center-align">
+      <div className="container">
+        <div className="row">
+          <div className="col s12 m6 l6 chat-box center-align">
+          <br></br><br></br>
             <h1 className="page-title">let's chat</h1>
           </div>
           <div className="col s12 m6 l6">
