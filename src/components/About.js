@@ -12,7 +12,7 @@ const About = () => {
         <div className="about-p">As a software engineer with seven years of experience as a STEM educator, I am a supportive and loyal team-member. My lifelong love of learning and teaching is matched by my approachable and inviting persona. I use my meticulous eye for detail and dedication to success to ensure innovative software development. </div>
         
         <Link to="/contact"><a class="buttons btn project-button">Let's Chat!</a></Link>
-        <a className='btn buttons project-button' href="https://www.canva.com/design/DAELpQOuJig/fFMyXAWlTlGH__6Vwje_3g/view?utm_content=DAELpQOuJig&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">My Resume</a>
+        <a className='btn buttons project-button' href="https://drive.google.com/file/d/15t4xNpmLy2BWd4dFwv-6-japqPvof2tU/view?usp=sharing">My Resume</a>
       
         </div>
         <div className="col s6 m6">
