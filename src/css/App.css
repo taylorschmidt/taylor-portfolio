@@ -37,3 +37,59 @@ body {
 .footer-container {
   text-align: center
 }
+
+/* label focus color */
+ .input-field input:focus + label {
+   color: #475841 !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid #475841 !important;
+   box-shadow: 0 1px 0 0 #475841 !important
+ }
+
+
+.input-field textarea:focus + label {
+  color: #475841 !important;
+}
+
+.row .input-field textarea:focus {
+  border-bottom: 1px solid #475841 !important;
+  box-shadow: 0 1px 0 0 #475841 !important
+}
+
+.row-a {
+  background: 	#F0F0F0;
+  padding: 30px;
+  border: 1px solid #6b7966
+}
+
+.row-b {
+  background: 	#F0F0F0;
+  padding: 30px;
+  border: 1px solid #6b7966
+}
+
+.container {
+  width: 75vw;
+  margin-top: 15px;
+}
+
+.project-container {
+  padding: 20px
+
+}
+
+.project-button {
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.project-header {
+ text-decoration: underline;
+}
+
+.about-p {
+  margin: 20px;
+  margin-right: 40px;
+}
