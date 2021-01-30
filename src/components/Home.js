@@ -18,7 +18,7 @@ const Home = () => {
           {/* <div className="photo-background grey darken-3" height="850" width="300"> */}
           <img
             className="responsive-img"
-            src="https://i.imgur.com/whKifS6.png"
+            src="https://i.imgur.com/z5IlRTa.png"
           />
           {/* </div> */}
         </div>

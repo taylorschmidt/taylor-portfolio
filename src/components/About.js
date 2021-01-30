@@ -16,7 +16,7 @@ const About = () => {
       
         </div>
         <div className="col s6 m6">
-        <img className="responsive-img" src="https://i.imgur.com/3hpPOdJ.png"/>
+        <img className="responsive-img" src="https://i.imgur.com/1oDPBUs.png"/>
         </div>
         </div>
         <div class="row center-align">
