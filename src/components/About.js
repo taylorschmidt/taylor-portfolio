@@ -27,7 +27,7 @@ const About = () => {
               As a software engineer with seven years of experience as a STEM
               educator, I am a supportive and loyal team-member. My lifelong
               love of learning and teaching is matched by my approachable and
-              inviting persona. <div className="about-p2">I'm in search of in search of a collaborative team that is in the
+              inviting persona. <div className="about-p2">I'm in search of a collaborative team that is in the
               business of pushing boundaries with code.</div>
             </div>
 

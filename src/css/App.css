@@ -93,3 +93,24 @@ main {
 .contact-form {
   margin-top: 10vh;
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+    .about-p, .about-p2 {
+      text-align: center;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .about-p, .about-p2 {
+      text-align: center;
+    }
+}

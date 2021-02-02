@@ -1,6 +1,23 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import {
+  FaHtml5,
+  FaReact,
+  FaNodeJs,
+  FaCss3Alt,
+  FaPython,
+  FaGit,
+  FaDatabase,
+  FaBootstrap,
+} from "react-icons/fa";
+import {
+  SiJavascript,
+  SiMongodb,
+  SiPostgresql,
+  SiPostman,
+  SiFlask,
+} from "react-icons/si";
 
 //Components
 import Spinner from "./common/Spinner";
@@ -53,7 +70,12 @@ const Home = () => {
                   className="project-image"
                   src="https://i.imgur.com/L9RU5xo.png"
                 />
-                <div class="home-title card-title">View My Projects</div>
+                <div class="home-title card-title">
+                <FaReact size="1.5em" />
+              <FaNodeJs size="1.5em" />
+              <SiMongodb size="1.5em" />
+              <FaBootstrap size="1.5em" />
+              <div>View My Projects</div></div>
               </Link>
             </div>
           </div>
@@ -67,7 +89,11 @@ const Home = () => {
                 className="project-image"
                 src="https://i.imgur.com/pUP34Nb.png"
               />
-              <div class="home-title card-title">View My Projects</div>
+              <div class="home-title card-title">
+              <FaNodeJs size="1.5em" />
+              <FaCss3Alt size="1.5em" />
+              <SiPostgresql size="1.5em" />
+                <div>View My Projects</div></div>
             </Link>
           </div>
         </div>
@@ -80,7 +106,9 @@ const Home = () => {
                 className="project-image"
                 src="https://i.imgur.com/DYIl8UL.png"
               />
-              <div className="home-title card-title">View My Projects</div>
+              <div className="home-title card-title"> <FaHtml5 size="1.5em" />
+              <SiJavascript size="1.5em" />
+              <FaCss3Alt size="1.5em" /><div>View My Projects</div></div>
             </Link>
           </div>
         </div>
