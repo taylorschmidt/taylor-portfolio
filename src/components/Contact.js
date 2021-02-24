@@ -26,11 +26,11 @@ export default function Contact() {
     <>
       <div className="container">
         <div className="row">
-          <div className="col s12 m6 l6 chat-box center-align">
+          <div className="col s12 m6 l6 chat-box center-align left-div">
           <br></br><br></br>
             <h1 className="page-title">let's chat</h1>
           </div>
-          <div className="col s12 m6 l6">
+          <div className="col s12 m6 l6 right-div">
             <form class="contact-form sm center-align " onSubmit={sendEmail}>
               <input type="hidden" name="contact_number" />
               <div class=" center-align row">

@@ -21,7 +21,7 @@ const About = () => {
     <>
       <div className="container">
         <div className="row">
-          <div className="col s12 m12 l6">
+          <div className="col s12 m12 l6 left-div">
             <h1 className="page-title center-align">what i'm about</h1>
             <div className="about-p">
               As a software engineer with seven years of experience as a STEM
@@ -36,12 +36,12 @@ const About = () => {
             </Link>
             <a
               className="btn buttons project-button"
-              href="https://drive.google.com/file/d/15t4xNpmLy2BWd4dFwv-6-japqPvof2tU/view?usp=sharing"
+              href="https://drive.google.com/file/d/1p8aTEboLlTSCHY2W0pzUvYTL6f-OJuJv/view?usp=sharing"
             >
               My Resume
             </a>
           </div>
-          <div className="col s12 m12 l6">
+          <div className="col s12 m12 l6 right-div">
             <img
               className="responsive-img"
               src="https://i.imgur.com/1oDPBUs.png"

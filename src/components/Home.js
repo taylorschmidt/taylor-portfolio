@@ -17,7 +17,11 @@ import {
   SiPostgresql,
   SiPostman,
   SiFlask,
+  SiNextDotJs
 } from "react-icons/si";
+import {
+  BiBoltCircle
+} from "react-icons/bi"
 
 //Components
 import Spinner from "./common/Spinner";
@@ -32,13 +36,13 @@ const Home = () => {
     <>
     <div className="container">
       <div className="row">
-        <div className="col s12 m5 l5">
+        <div className="col s12 m5 l5 left-div">
           <img
             className="responsive-img"
             src="https://i.imgur.com/z5IlRTa.png"
           />
         </div>
-        <div className="col s12 m7 l7 center-align">
+        <div className="col s12 m7 l7 center-align right-div">
           <br></br>
           <h1 className="page-title ">hi, there.</h1>
           <h5>I'm Taylor Schmidt, a full-stack software engineer.</h5>
@@ -51,18 +55,24 @@ const Home = () => {
       <div className="row center-align">
         <img className="responsive-img" src="https://i.imgur.com/Td5CWaG.png" />
       </div>
-      {/* <div class="col s6 center-align">
+      <div className="row center-align">
+      <div class="col s12 m6 l6">
         <div className="card main-div">
           <div className="card-image home-project">
           <Link to='/projects'>
-            <img className="project-image" src="https://i.imgur.com/L9RU5xo.png"/>
-            <div class="home-title card-title">View My Projects</div>
+            <img className="project-image" src="https://i.imgur.com/Xq5GyXB.png"/>
+            <div class="home-title card-title">
+            <SiNextDotJs size="1.5em" />
+            <BiBoltCircle size ="1.5em" />
+            <SiFlask size="1.5em" />
+            <SiPostgresql size="1.5em" />
+             <div>View My Projects</div> </div>
           </Link>
           </div>
         </div>
-      </div> */}
-      <div className="row center-align">
-        <div className="col s12 m4 l4">
+      </div>
+      
+        <div className="col s12 m6 l6">
           <div className="card main-div">
             <div className="card-image home-project">
               <Link to="/projects">
@@ -75,13 +85,14 @@ const Home = () => {
               <FaNodeJs size="1.5em" />
               <SiMongodb size="1.5em" />
               <FaBootstrap size="1.5em" />
+              
               <div>View My Projects</div></div>
               </Link>
             </div>
           </div>
         </div>
       {/* <div className= "row"> */}
-      <div className="col l4 m4 s12 center-align">
+      <div className="col l6 m6 s12 center-align">
         <div className="card main-div">
           <div className="card-image home-project">
             <Link to="/projects">
@@ -98,7 +109,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="col l4 m4 s12 center-align">
+      <div className="col l6 m6 s12 center-align">
         <div className="card main-div">
           <div className="card-image home-project">
             <Link to="/projects">
